@@ -21,6 +21,7 @@ button {
   padding-right: 60px;
   border-radius: 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 button.no {
