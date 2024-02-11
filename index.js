@@ -10,7 +10,6 @@ nobtn.addEventListener("mouseleave", () => {
 
 nobtn.addEventListener("touchstart", (e) => {
   e.preventDefault()
-  console.log("no lcicked")
   if (btnContainer.style.flexDirection === "row-reverse") {
     btnContainer.style.flexDirection = "row"
   } else {
