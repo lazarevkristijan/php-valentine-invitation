@@ -12,11 +12,13 @@
             <h1>
                 Will you be my valentine?
             </h1>
-
-            <button type="submit" class="yes">yes</button>
-            <button type="button" class="no">no</button>
+            <div class="btn-container">
+                <button type="submit" class="yes">yes</button>
+                <button type="button" class="no">no</button>
+            </div>
         </form>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
 

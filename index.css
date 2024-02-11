@@ -32,6 +32,12 @@ button.yes {
   background-color: lightgreen;
 }
 
+.btn-container {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 30px;
