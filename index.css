@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #fff3ff,
+    #fee7ff,
+    #fdceff,
+    #ffa7ff
+  );
+  text-align: center;
+  font-family: "Great Vibes", serif;
+  font-size: 40px;
+}
+
+button {
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+button.no {
+  background-color: red;
+}
+
+button.yes {
+  background-color: lightgreen;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 30px;
+  }
+}
