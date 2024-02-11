@@ -7,3 +7,13 @@ nobtn.addEventListener("mouseover", () => {
 nobtn.addEventListener("mouseleave", () => {
   btnContainer.style.flexDirection = "row"
 })
+
+nobtn.addEventListener("touchstart", (e) => {
+  e.preventDefault()
+  console.log("no lcicked")
+  if (btnContainer.style.flexDirection === "row-reverse") {
+    btnContainer.style.flexDirection = "row"
+  } else {
+    btnContainer.style.flexDirection = "row-reverse"
+  }
+})
