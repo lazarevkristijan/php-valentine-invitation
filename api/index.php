@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interview</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -18,7 +18,7 @@
             </div>
         </form>
     </main>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
 
