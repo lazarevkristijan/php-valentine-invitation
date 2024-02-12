@@ -33,6 +33,7 @@
         border-radius: 10px;
         text-transform: uppercase;
         cursor: pointer;
+        color: #fff;
         }
 
         button.no {
